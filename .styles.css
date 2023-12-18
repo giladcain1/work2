@@ -1,0 +1,112 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.image{
+    width: 100vw;
+    height: 30vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+
+.Text{
+  display: grid;
+  grid-template-columns: 100%;
+  font-family: cain;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(79, 79, 137);
+}
+.Texts{
+    display: grid;
+    grid-template-columns: 100%;
+    font-family: gilad;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(71, 71, 111);
+}
+@font-face {
+    font-family: gilad;
+    src: url(/work2/Pacifico-Regular.ttf);
+}
+@font-face {
+  font-family: cain;
+  src: url(/work2/Roboto-Black.ttf);
+}
+
+hr {
+  border:  dotted #0f068c 10px; 
+  height: 10px; 
+  margin: 10px 0;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: right;
+}
+
+
+.Middle{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.grid{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.color{
+  color:darkgray;
+}
+
+body {
+  text-align: center;
+}
+
+.image-link {
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-link img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-top: 15%;
+  
+}
+
+.image-link:hover{
+  transform: scale(1.2) ;
+}
+
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  font-family: gilad;
+}
